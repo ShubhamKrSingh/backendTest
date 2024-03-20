@@ -9,6 +9,18 @@ app.get("/", (req, res) => {
   res.send("hello World");
 });
 
+app.get("/login", (req, res) => {
+  res.send("<h1> Login Here:  </h1>");
+});
+
+app.get("/signup", (req, res) => {
+  res.send("<h1> Signup Here:  </h1>");
+});
+
+app.get("/profile", (req, res) => {
+  res.send("<h1>Shubham Singh</h1>");
+});
+
 app.listen(port, () => {
   console.log(`App is listening om ${port}`);
 });
