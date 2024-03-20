@@ -17,7 +17,7 @@ app.get("/signup", (req, res) => {
   res.send("<h1> Signup Here:  </h1>");
 });
 
-app.get("/profile", (req, res) => {
+app.get("/account", (req, res) => {
   res.send("<h1>Shubham Singh</h1>");
 });
 
