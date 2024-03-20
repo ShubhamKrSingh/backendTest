@@ -1,0 +1,15 @@
+{
+  "name": "chaideploy",
+  "version": "1.0.0",
+  "description": "first test backend project",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "shubham singh",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.18.3"
+  }
+}
