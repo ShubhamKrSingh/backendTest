@@ -13,12 +13,8 @@ app.get("/login", (req, res) => {
   res.send("<h1> Login Here:  </h1>");
 });
 
-app.get("/signup", (req, res) => {
-  res.send("<h1> Signup Here:  </h1>");
-});
-
-app.get("/account", (req, res) => {
-  res.send("<h1>Shubham Singh</h1>");
+app.get("/shubham", (req, res) => {
+  res.send("<h1> Shubham Singh </h1>");
 });
 
 app.listen(port, () => {
