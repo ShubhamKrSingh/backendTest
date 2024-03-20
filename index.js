@@ -13,7 +13,11 @@ app.get("/login", (req, res) => {
   res.send("<h1> Login Here:  </h1>");
 });
 
-app.get("/shubham", (req, res) => {
+app.get("/signup", (req, res) => {
+  res.send("<h1> Signup here: </h1>");
+});
+
+app.get("/profile", (req, res) => {
   res.send("<h1> Shubham Singh </h1>");
 });
 
